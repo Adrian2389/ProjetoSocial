@@ -38,12 +38,23 @@ iframe {
     position: relative ;
     top: 81px;
     left: 22px;
-
     width: 267px;
     height: 480px;
     
 }
-section#redesocial > img {
-    width: 20px;
-    
+section#redesocial {
+    text-align: end;
+}
+section#redesocial  img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; 
+    box-sizing: border-box;
+   
+}
+section#redesocial img:hover {
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.5s border 1s;
 }
